@@ -1,1 +1,1 @@
-export { CoreModule, CoreService } from './projects/core/src/public-api';
+export { CoreModule, CoreService } from 'core';
