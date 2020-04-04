@@ -2,6 +2,9 @@ import { ɵɵdefineInjectable, ɵsetClassMetadata, Injectable, ɵɵdefineCompone
 
 class CoreService {
     constructor() { }
+    testme() {
+        return 16;
+    }
 }
 CoreService.ɵfac = function CoreService_Factory(t) { return new (t || CoreService)(); };
 CoreService.ɵprov = ɵɵdefineInjectable({ token: CoreService, factory: CoreService.ɵfac, providedIn: 'root' });

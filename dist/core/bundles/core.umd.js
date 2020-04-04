@@ -7,6 +7,9 @@
     var CoreService = /** @class */ (function () {
         function CoreService() {
         }
+        CoreService.prototype.testme = function () {
+            return 16;
+        };
         CoreService.ɵfac = function CoreService_Factory(t) { return new (t || CoreService)(); };
         CoreService.ɵprov = core["ɵɵdefineInjectable"]({ token: CoreService, factory: CoreService.ɵfac, providedIn: 'root' });
         return CoreService;

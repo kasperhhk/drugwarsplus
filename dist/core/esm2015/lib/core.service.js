@@ -2,6 +2,9 @@ import { Injectable } from '@angular/core';
 import * as i0 from "@angular/core";
 export class CoreService {
     constructor() { }
+    testme() {
+        return 16;
+    }
 }
 CoreService.ɵfac = function CoreService_Factory(t) { return new (t || CoreService)(); };
 CoreService.ɵprov = i0.ɵɵdefineInjectable({ token: CoreService, factory: CoreService.ɵfac, providedIn: 'root' });
@@ -11,4 +14,4 @@ CoreService.ɵprov = i0.ɵɵdefineInjectable({ token: CoreService, factory: Core
                 providedIn: 'root'
             }]
     }], function () { return []; }, null); })();
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY29yZS5zZXJ2aWNlLmpzIiwic291cmNlUm9vdCI6Im5nOi8vY29yZS8iLCJzb3VyY2VzIjpbImxpYi9jb3JlLnNlcnZpY2UudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsT0FBTyxFQUFFLFVBQVUsRUFBRSxNQUFNLGVBQWUsQ0FBQzs7QUFLM0MsTUFBTSxPQUFPLFdBQVc7SUFFdEIsZ0JBQWdCLENBQUM7O3NFQUZOLFdBQVc7bURBQVgsV0FBVyxXQUFYLFdBQVcsbUJBRlYsTUFBTTtrREFFUCxXQUFXO2NBSHZCLFVBQVU7ZUFBQztnQkFDVixVQUFVLEVBQUUsTUFBTTthQUNuQiIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IEluamVjdGFibGUgfSBmcm9tICdAYW5ndWxhci9jb3JlJztcblxuQEluamVjdGFibGUoe1xuICBwcm92aWRlZEluOiAncm9vdCdcbn0pXG5leHBvcnQgY2xhc3MgQ29yZVNlcnZpY2Uge1xuXG4gIGNvbnN0cnVjdG9yKCkgeyB9XG5cbiAgdGVzdG1lOiAoKSA9PiAxNjtcbn1cbiJdfQ==
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY29yZS5zZXJ2aWNlLmpzIiwic291cmNlUm9vdCI6Im5nOi8vY29yZS8iLCJzb3VyY2VzIjpbImxpYi9jb3JlLnNlcnZpY2UudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsT0FBTyxFQUFFLFVBQVUsRUFBRSxNQUFNLGVBQWUsQ0FBQzs7QUFLM0MsTUFBTSxPQUFPLFdBQVc7SUFFdEIsZ0JBQWdCLENBQUM7SUFFakIsTUFBTTtRQUNKLE9BQU8sRUFBRSxDQUFDO0lBQ1osQ0FBQzs7c0VBTlUsV0FBVzttREFBWCxXQUFXLFdBQVgsV0FBVyxtQkFGVixNQUFNO2tEQUVQLFdBQVc7Y0FIdkIsVUFBVTtlQUFDO2dCQUNWLFVBQVUsRUFBRSxNQUFNO2FBQ25CIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgSW5qZWN0YWJsZSB9IGZyb20gJ0Bhbmd1bGFyL2NvcmUnO1xuXG5ASW5qZWN0YWJsZSh7XG4gIHByb3ZpZGVkSW46ICdyb290J1xufSlcbmV4cG9ydCBjbGFzcyBDb3JlU2VydmljZSB7XG5cbiAgY29uc3RydWN0b3IoKSB7IH1cblxuICB0ZXN0bWUoKSB7XG4gICAgcmV0dXJuIDE2O1xuICB9XG59XG4iXX0=

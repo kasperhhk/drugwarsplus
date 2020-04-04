@@ -7,5 +7,7 @@ export class CoreService {
 
   constructor() { }
 
-  testme: () => 16;
+  testme() {
+    return 16;
+  }
 }
