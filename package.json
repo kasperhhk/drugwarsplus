@@ -1,7 +1,7 @@
 {
   "name": "drugwarsplusplus",
-  "version": "0.1.5",
-  "main": "index.ts",
+  "version": "0.1.6",
+  "main": "./dist",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
