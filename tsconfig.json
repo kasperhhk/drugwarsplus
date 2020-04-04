@@ -19,6 +19,10 @@
       "@dwpp/core": [
         "dist/core/core",
         "dist/core"
+      ],
+      "@dwpp/ui": [
+        "dist/ui/ui",
+        "dist/ui"
       ]
     }
   },
