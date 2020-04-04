@@ -1,1 +1,1 @@
-export { CoreModule, CoreService } from './dist/core';
+export * from './dist/core';
