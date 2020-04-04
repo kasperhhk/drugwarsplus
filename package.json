@@ -1,7 +1,6 @@
 {
   "name": "drugwarsplusplus",
   "version": "0.2.3",
-  "main": "projects/ui/src/public-api.ts",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",

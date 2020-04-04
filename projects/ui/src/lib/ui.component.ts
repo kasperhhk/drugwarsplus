@@ -1,10 +1,11 @@
 import { Component, OnInit } from '@angular/core';
+import { UiService } from './ui.service';
 
 @Component({
   selector: 'dwpp-ui',
   template: `
     <p>
-      ui works!
+      ui works! {{val}}
     </p>
   `,
   styles: [
@@ -12,7 +13,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UiComponent implements OnInit {
 
-  constructor() { }
+  val: number;
+
+  constructor(public uiService: UiService) {
+    this.val = uiService.testme2(12);
+   }
 
   ngOnInit(): void {
   }
